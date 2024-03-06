@@ -1,7 +1,15 @@
 import React from "react";
+import CompanyCard from "../CompanyCard";
+// import { useState } from "react";
 
 function Companies() {
-  return <div>Companies</div>;
+  return (
+    <>
+      <CompanyCard username="Shubham" />
+      <CompanyCard username="Azam" />
+      <CompanyCard username="Faizal" />
+    </>
+  );
 }
 
 export default Companies;

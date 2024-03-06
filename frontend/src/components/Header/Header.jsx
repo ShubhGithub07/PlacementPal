@@ -43,7 +43,7 @@ export default function Header() {
 
               <li>
                 <NavLink
-                  to="/Compaines"
+                  to="/Companies"
                   className={({ isActive }) =>
                     `block py-2 pr-4 pl-3 duration-200 ${
                       isActive ? "text-[#27ff82]" : "text-white"
