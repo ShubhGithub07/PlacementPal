@@ -21,7 +21,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<Home />} />
       <Route path="home" element={<Home />} />
       <Route path="companies" element={<Companies />} />
-      <Route path="/Companies/CompanyDetails" component={CompanyDetails} />
+      <Route path="/Companies/CompanyDetails" element={<CompanyDetails />} />
       <Route path="resources" element={<Resources />} />
       <Route path="calendar" element={<Calendar />} />
       <Route path="ask" element={<Ask />} />
