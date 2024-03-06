@@ -12,7 +12,7 @@ import Layout from './Layout'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
-      <Route path='' element={<Home />} />
+      <Route path='home' element={<Home />} />
       <Route path='companies' element={<Companies />} />
       <Route path='resources' element={<Resources />} />
       <Route path='calendar' element={<Calendar />} />
