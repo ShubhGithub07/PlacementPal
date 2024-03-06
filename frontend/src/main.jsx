@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import Home from './components/Home/Home.jsx'
 import Calendar from './components/Calendar/Calendar.jsx'
 import Chat from './components/Chat/Chat.jsx'
@@ -8,6 +7,7 @@ import Resource from './components/Resources/Resource.jsx'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import Companies from './components/Companies/Companies.jsx'
 import './index.css'
+import Layout from './Layout'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
