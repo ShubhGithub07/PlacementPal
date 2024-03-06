@@ -8,6 +8,12 @@ function Companies() {
       <CompanyCard username="Shubham" />
       <CompanyCard username="Azam" />
       <CompanyCard username="Faizal" />
+      <CompanyCard username="Shubham" />
+      <CompanyCard username="Azam" />
+      <CompanyCard username="Faizal" />
+      <CompanyCard username="Shubham" />
+      <CompanyCard username="Azam" />
+      <CompanyCard username="Faizal" />
     </>
   );
 }

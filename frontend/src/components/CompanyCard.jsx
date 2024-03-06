@@ -6,9 +6,9 @@ function CompanyCard({ username }) {
   console.log(username);
   return (
     <Link to="./CompanyDetails" className="">
-      <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800 m-4">
+      <figure className="md:flex bg-[#222c30] rounded-xl p-8 md:p-0 dark:bg-slate-800 m-4">
         <img
-          className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto items-start"
+          className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-0 items-start "
           src="https://images.unsplash.com/photo-1706633365807-ac262530a8f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
           width="300"
@@ -16,11 +16,11 @@ function CompanyCard({ username }) {
         />
         <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
           <blockquote>
-            <p className="text-lg font-medium">Lorem ipsum dolor sit.</p>
+            <p className="text-lg font-medium text-white">Lorem ipsum dolor sit.</p>
           </blockquote>
           <figcaption className="font-medium">
-            <div className="text-sky-500 dark:text-sky-400">{username}</div>
-            <div className="text-slate-700 dark:text-slate-500">
+            <div className="text-[#27ff82] dark:text-[#097034]">{username}</div>
+            <div className="text-[#7d898d] dark:text-slate-500">
               Staff Engineer, Algolia
             </div>
           </figcaption>
