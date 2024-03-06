@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Companies() {
-  return (
-    <div>Companies</div>
-  )
+  return <div>Companies</div>;
 }
 
-export default Companies
+export default Companies;

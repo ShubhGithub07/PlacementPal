@@ -14,5 +14,3 @@ function Layout() {
 }
 
 export default Layout
-
-// md:5/12 lg:w-5/12
