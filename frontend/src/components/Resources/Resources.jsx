@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Resource() {
+function Resources() {
   return (
     <div>Resource</div>
   )
 }
 
-export default Resource
+export default Resources

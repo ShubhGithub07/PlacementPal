@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Chat() {
+function Ask() {
   return (
-    <div>Chat</div>
+    <div>Ask</div>
   )
 }
 
-export default Chat
+export default Ask
