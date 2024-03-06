@@ -2,26 +2,26 @@ import React from "react";
 
 const CompanyDetails = () => {
   return (
-    <div className="container mx-auto mt-8">
-      <div className="bg-white shadow-md rounded px-8 py-6 mt-4 justify-center">
-        <h2 className="text-3xl font-semibold mb-7 ml-16">Company Name</h2>
+    <div className="container">
+      <div className="bg-[#001e2b] shadow-md rounded px-8 py-6 h-[90vh] w-auto">
+        <h2 className="text-3xl font-semibold mb-7 ml-16 text-white">Company Name</h2>
         <div className="flex items-center mb-4">
           <img
             src="https://placekitten.com/100/100"
             alt="Company Logo"
             className="rounded-full w-[300px] h-[300px] mr-36 ml-7"
           />
-          <p className="text-gray-700 ml-7">
+          <p className="text-[#858f93] ml-7">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
             ullam repellat assumenda ducimus voluptatibus quisquam voluptas,
             exercitationem adipisci fuga enim harum voluptatum illo cumque eum.
           </p>
         </div>
 
-        <div className="justify-between flex mt-12">
+        <div className="justify-between flex mt-24 text-white">
           <div className="mb-4">
             <h3 className="text-xl font-semibold mb-2">Location</h3>
-            <p className="text-gray-700">City, Country</p>
+            <p className="text-white">City, Country</p>
           </div>
           <div className="mb-4">
             <h3 className="text-xl font-semibold mb-2">Website</h3>
